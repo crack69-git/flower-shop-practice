@@ -147,7 +147,7 @@
     margin-bottom: 40px;
     color: rgb(39, 39, 39, 0.6);
 }
-.discount-container button{
+.discount-container button,.email-input button{
     font-size: 20px;
     font-weight: 700;
     color: white;
@@ -184,4 +184,36 @@
     /* border: 2px solid black; */
     width: 100%;
     height: 290px;
+}
+#deals{
+    background-image: url(image/Rectangle\ 9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 100px 200px
+    
+}
+.deal-container{
+    width: 100%;
+    height: 310px;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 200px;
+}
+.deal-container h2{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 90px 0 10px;
+}
+.deal-container p{
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(39, 39, 39, 0.6);
+    margin-bottom: 20px;
+}
+.email-input input{
+    font-size: 18px;
+    padding: 23px 250px 23px 50px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
 }
