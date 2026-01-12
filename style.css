@@ -104,3 +104,23 @@
     padding: 100px 50px 0;
     height: 430px;
 }
+.b2-container{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 120px 200px;
+    padding: 76px 70px;
+    background-color: rgb(39, 39, 39,0.05);
+}
+.b2-container .delivary img,.b2-container .flower img,.b2-container .contact img{
+    /* border: 2px solid black; */
+    display: block;
+    margin: 0 auto;
+}
+.b2-container .delivary p,.b2-container .flower p,.b2-container .contact p{
+    /* border: 2px solid black; */
+    font-size: 20px;
+    line-height: 30px;
+}
