@@ -49,3 +49,58 @@
     height: 725px;
     width: 535px;
 }
+#cards{
+    /* border: 2px solid black; */
+    padding: 100px 100px 0;
+    text-align: center;
+}
+.card-text{
+    margin: 0 370px;
+}
+.card-text h3{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.card-text p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+#cards .flower-cards{
+    text-decoration: underline;
+    /* border: 2px solid black; */
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#cards .flower-cards .fl{
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+#cards .flower-cards .fl .fl1{
+    background-color: rgb(167, 33, 98, 0.15);
+    /* border: 2px solid black; */
+    border-radius: 300px 300px 0 0;
+    padding: 100px 50px 0;
+    height: 430px;
+}
+#cards .flower-cards .fl .fl2{
+    background-color: rgb(5, 151, 160, 0.15);
+    /* border: 2px solid black; */
+    border-radius: 300px 300px 0 0;
+    padding: 117px 47px 51px;
+    height: 430px;
+}
+#cards .flower-cards .fl .fl3{
+    background-color: rgb(71, 125, 17, 0.15);
+    /* border: 2px solid black; */
+    border-radius: 300px 300px 0 0;
+    padding: 100px 50px 0;
+    height: 430px;
+}
