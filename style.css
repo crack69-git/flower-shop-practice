@@ -156,3 +156,32 @@
     border-radius: 8px;
     border: none;
 }
+.social-container{
+    text-align: center;
+    padding-top:100px;
+    margin: 0 140px;
+}
+.social-text{
+    margin: 0 310px;
+}
+.social-container .social-text h2{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.social-container .social-text p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    color: rgb(39, 39, 39, 0.6);
+}
+.social-container .social-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+}
+.social-container .social-images img{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 290px;
+}
