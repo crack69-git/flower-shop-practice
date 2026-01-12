@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.banner-container{
+    display: flex;
+    /* border: 2px solid black; */
+    background-color: rgba(229, 84, 115, 0.1);
+    width: 100%;
+    height: 732px;
+    align-items: center;
+    padding: 10px 120px 0 150px;
+}
+.banner-text{
+    margin: 14px 10px 0;
+}
+.banner-text h1{
+    /* border: 2px solid black; */
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-text p{
+    /* border: 2px solid black; */
+    font-size: 20px;
+    color: rgb(39, 39, 39, 0.6);
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner-container button{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;;
+}
+.banner-flowers img{
+    /* border: 2px solid black; */
+    padding: 50px 0 0 50px;
+    height: 725px;
+    width: 535px;
+}
